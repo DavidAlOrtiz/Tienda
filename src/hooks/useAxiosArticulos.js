@@ -22,7 +22,7 @@ export const useAxiosArticulos = () => {
 
 //Guardar Venta en tabla Venta y Venta Articulo
 export const handleComprarU = async (artComprasC) => {
-  alert("Quieres comprar estas madres");
+  alert("Quieres comprar esto");
   try {
     //Registrar la compra en la taba Venta
     const ventaObj = {

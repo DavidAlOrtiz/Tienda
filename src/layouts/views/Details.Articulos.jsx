@@ -24,7 +24,7 @@ export const Details = () => {
     try {
       //Registrar la compra en la taba Venta
       const ventaObj = {
-        idVenta: Date.now().toString(),
+        idVenta: Date.now().toString(), 
         vendedor: "cualquiera",
         folio: Date.now().toString(),
         totalVendido: Number(getTotal()),
